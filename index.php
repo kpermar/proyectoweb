@@ -33,18 +33,18 @@ $sql_detalles=$conexion->query("SELECT* FROM Detalles");
 			<nav>
 				<ul>
 
-					<li><a href="http://localhost/proyecto_solvam/index.php">Home</a></li>
-					<li><a href="http://localhost/proyecto_solvam/blog3.php">About us</a>
+					<li><a href="index.php">Home</a></li>
+					<li><a href="blog3.php">About us</a>
 						<ul>
-							<li><a href="http://localhost/proyecto_solvam/blog3.php?id_categoria=1">England</a></li>
-							<li><a href="http://localhost/proyecto_solvam/blog3.php?id_categoria=2">Scotland</a></li>
-							<li><a href="http://localhost/proyecto_solvam/blog3.php?id_categoria=3">Wales</a></li>
-							<li><a href="http://localhost/proyecto_solvam/blog3.php?id_categoria=4">Ireland</a></li>
+							<li><a href="blog3.php?id_categoria=1">England</a></li>
+							<li><a href="blog3.php?id_categoria=2">Scotland</a></li>
+							<li><a href="blog3.php?id_categoria=3">Wales</a></li>
+							<li><a href="blog3.php?id_categoria=4">Ireland</a></li>
 						</ul>
 					</li>
 					
-					<li><a href="http://localhost/proyecto_solvam/contacta.html">Contact</a></li>
-					<li><a href="http://localhost:8080/proyecto/login.jsp">Log in</a></li>
+					<li><a href="contacta.html">Contact</a></li>
+					<li><a href="http://kevinperona.com.es:8080/kevinperona/proyecto/webapp/login.jsp">Log in</a></li>
 
 
 				</ul>
@@ -132,10 +132,7 @@ $sql_detalles=$conexion->query("SELECT* FROM Detalles");
 			<h1 class="animated-text">The Welsh Rugby Union said in a statement:
 				                      "Rhys Carre has been released from the Wales senior
 									   men's preliminary training squad for Rugby World Cup 2023.
-                                       "Following ongoing discussions between the player and the 
-									   Wales coaching team, Carre has failed to meet individual 
-									   performance targets set at the end of the 2023 Guinness 
-									   Six Nations."</h1>
+                                       "</h1>
 			</div>
 
 			<div class="grid">
@@ -159,19 +156,18 @@ $sql_detalles=$conexion->query("SELECT* FROM Detalles");
 			<nav>
 				<ul>
 
-					<li><a href="#">Home</a></li>
-					<li><a href="#">About us</a>
+				<li><a href="index.php">Home</a></li>
+					<li><a href="blog3.php">About us</a>
 						<ul>
-							<li><a href="#">England</a></li>
-							<li><a href="#">Scotland</a></li>
-							<li><a href="#">Wales</a></li>
-							<li><a href="#">Ireland</a></li>
+							<li><a href="blog3.php?id_categoria=1">England</a></li>
+							<li><a href="blog3.php?id_categoria=2">Scotland</a></li>
+							<li><a href="blog3.php?id_categoria=3">Wales</a></li>
+							<li><a href="blog3.php?id_categoria=4">Ireland</a></li>
 						</ul>
 					</li>
 					
-					<li><a href="#">Contact</a></li>
-					<li><a href="kevinperona.com.es:8080/kevinperona/proyecto/webapp/login.jsp">Log in</a></li>
-
+					<li><a href="contacta.html">Contact</a></li>
+					<li><a href="http://kevinperona.com.es:8080/kevinperona/proyecto/webapp/login.jsp">Log in</a></li>
 
 
 				</ul>
