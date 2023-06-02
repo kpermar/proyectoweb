@@ -129,7 +129,13 @@ $sql_detalles=$conexion->query("SELECT* FROM Detalles");
 			</div>
 
 			<div class="late">
-
+			<h1 class="animated-text">The Welsh Rugby Union said in a statement:
+				                      "Rhys Carre has been released from the Wales senior
+									   men's preliminary training squad for Rugby World Cup 2023.
+                                       "Following ongoing discussions between the player and the 
+									   Wales coaching team, Carre has failed to meet individual 
+									   performance targets set at the end of the 2023 Guinness 
+									   Six Nations."</h1>
 			</div>
 
 			<div class="grid">
